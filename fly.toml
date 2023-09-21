@@ -1,9 +1,9 @@
-# fly.toml app configuration file generated for diydex-allison on 2023-09-11T20:41:26-05:00
+# fly.toml app configuration file generated for diydex on 2023-09-11T20:02:16-05:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = "diydex-allison"
+app = "diydex"
 primary_region = "ord"
 console_command = "/rails/bin/rails console"
 
