@@ -1,0 +1,13 @@
+.div
+ .div
+    %h1.font.bold.4xl= "Users"
+    %link_to new_user_path
+  </div>
+
+  .div
+    - if @users.blank?
+        %h2 "No Users"
+    - else
+      @users.each |user|
+        %h2= #{user.name}
+      end
