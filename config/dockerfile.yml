@@ -2,6 +2,7 @@
 
 ---
 options:
+  compose: true
   label:
     fly_launch_runtime: rails
   redis: true
